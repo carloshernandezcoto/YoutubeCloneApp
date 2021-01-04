@@ -1,0 +1,8 @@
+npx create-react-app my-app   //creates an app
+
+npm install --save cross-env  //for being able to run in another browser, this has to run on a console
+Then use this command in the package.json file
+"start": "cross-env BROWSER=chrome react-scripts start"
+Then just run 
+npm start
+
